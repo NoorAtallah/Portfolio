@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="../custom-scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main>
+      <!-- Header Start -->
+      <header>
+        <nav class="nav container">
+          <h2 class="nav_logo"><a href="#">Portfo<span>lio</span></a></h2>
+
+          <ul class="menu_items">
+            <img src="images/times.svg" alt="timesicon" id="menu_toggle" />
+            <li><a href="#" class="nav_link">Home</a></li>
+            <li><a href="#" class="nav_link">About</a></li>
+            <li><a href="#" class="nav_link">Skills</a></li>
+            <li><a href="#" class="nav_link">Project</a></li>
+            <li><a href="#" class="nav_link">Contact</a></li>
+          </ul>
+          <img src="images/bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+      </header>
+      <!-- Header End -->
+      <!-- Hero Start -->
+      <section class="hero">
+        
+        <div class="row container">
+          <div class="column">
+            <h4>Hi,</h4>
+            <h1>I'm Noor Atallah</h1>
+            <h3>a pasionate and enthusiastic junior web developer.</h3>
+            <br> <br>
+            <div class="button">
+              <a href="Noor_Atallah_cv.pdf" class="btn" download="">About Me</a>
+          </div>
+            <div class="buttons">
+             
+            </div>
+          </div>
+          <div class="column">
+            <img src="images/hero.png" alt="heroImg" class="hero_img" />
+          </div>
+        </div>
+        <img src="images/bg-bottom-hero.png" alt="" class="curveImg" />
+        
+      </section>
+      <!-- Hero End-->
+      
+      
+<br>
+      <!-----about section--->
+      <hr>
+      <section class="about">
+        <div class="main">
+           <img src="3.png" alt="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                
+                <p>Hey there! I'm Noor Atallah, a passionate junior full stack developer on a mission to craft meaningful digital experiences. 
+                    With a blend of creativity and technical acumen,
+                     I thrive on bringing ideas to life through elegant code and intuitive design.
+                     Outside of coding, you'll often find me exploring the latest tech trends, experimenting with new frameworks, or immersing myself in the vibrant developer community.</p>
+
+            </div>
+        </div>
+        <br>
+    </section>
+    <!-----about end--->
+<hr>
+<!-----skills start--->
+<br>
+<div class="container-skills">
+
+  <h1 class="heading">Skills</h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="image/icon-1.png" alt="">
+          <h3>HTML 5</h3>
+          <p>Proficiency level: Beginner</p>
+          
+      </div>
+
+      <div class="box">
+          <img src="image/icon-2.png" alt="">
+          <h3>CSS 3</h3>
+          <p>Proficiency level: Beginner</p>
+          
+      </div>
+
+      <div class="box">
+          <img src="image/icon-3.png" alt="">
+          <h3>JavaScript</h3>
+          <p>Proficiency level: Beginner</p>
+          
+      </div>
+
+      <div class="box">
+        <img src="image/icon-6.png" alt="">
+        <h3>React.js</h3>
+        <p>Proficiency level: Beginner</p>
+        
+    </div>
+      <div class="box">
+          <img src="9.png" alt="">
+          <h3>Node JS</h3>
+          <p>Proficiency level: Beginner</p>
+          
+      </div>
+
+      <div class="box">
+          <img src="12.png" alt="">
+          <h3>MogoDB</h3>
+          <p>Proficiency level: Beginner</p>
+          
+      </div>
+
+      <div class="box">
+          <img src="13.PNG" alt="">
+          <h3>Redux</h3>
+          <p>Proficiency level: Beginner</p>
+          
+      </div>
+      <div class="box">
+        <img src="14.PNG" alt="">
+        <h3>Next Js</h3>
+        <p>Proficiency level: Beginner</p>
+        
+    </div>
+    <div class="box">
+      <img src="15.PNG" alt="">
+      <h3>WordPress</h3>
+      <p>Proficiency level: Beginner</p>
+      
+  </div>
+
+  </div>
+
+</div>
+<br>
+<!-----skills end--->
+
+<!-----projects start--->
+<section>
+  <div class="projects">
+    <h1 class="heading-2">Pojects</h1>
+    <div class="row">
+      <div class="col">
+        <img src="18.png" alt="">
+        <h2>Master Peice Project</h2>
+        <br>
+        <a href="" class="btn2" >Coming Soon</a>
+      </div>
+    </div>
+
+  
+  </div>
+</section>
+<br>
+<!-----projects end--->
+
+<!-----contact me start--->
+<div class="contact-me">
+  <p>Let Me Get A Beautiful Website</p>
+</div>
+    </main>
+
+    <script>
+      const header = document.querySelector("header");
+      const menuToggler = document.querySelectorAll("#menu_toggle");
+
+      menuToggler.forEach(toggler => {
+        toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+      });
+    </script>
+  </body>
+</html>
